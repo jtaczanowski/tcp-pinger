@@ -1,0 +1,21 @@
+{
+    "GraphiteHost": "localhost",
+    "GraphitePort": 2003,
+    "GraphiteProtocol": "tcp",
+    "GraphiteIntervalSecond": 60,
+    "GraphitePrefix": "tcp-pinger",
+    "AppendHostnameToGraphitePrefix": true,
+    "ShowPingsOnConsole": true,
+    "Hosts": [
+        {
+            "Host": "google.com:443",
+            "TimeoutSecond": 10,
+            "CheckIntervalMiliSecond": 1000
+        },
+        {
+            "Host": "bing.com:443",
+            "TimeoutSecond": 10,
+            "CheckIntervalMiliSecond": 1000
+        }
+    ]
+}
